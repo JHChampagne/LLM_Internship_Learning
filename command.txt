@@ -1,0 +1,21 @@
+# 配置
+git --version
+git config --global user.name "你的GitHub用户名"
+git config --global user.email "你的GitHub邮箱或noreply邮箱"
+# 初始
+cd D:\study
+git clone https://github.com/<你的用户名>/llm-learning-journey.git LLM
+cd D:\study\LLM
+git status
+# 学习前
+git status
+git pull --rebase
+# 学习后
+git status
+git diff
+git add -- "LLM_Internship_Guide"
+git diff --staged
+git commit -m "docs: update learning notes"
+git pull --rebase
+git push
+
