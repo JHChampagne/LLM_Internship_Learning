@@ -12,6 +12,7 @@ git status
 git pull --rebase
 # 学习后
 git add -- "LLM_Internship_Guide"
+git add -A
 git commit -m "docs: update learning notes"
 git pull --rebase
 git push
