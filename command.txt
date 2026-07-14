@@ -4,7 +4,7 @@ git config --global user.name "你的GitHub用户名"
 git config --global user.email "你的GitHub邮箱或noreply邮箱"
 # 初始
 cd D:\study
-git clone https://github.com/<你的用户名>/llm-learning-journey.git LLM
+git clone https://github.com/JHChampagne/LLM_Internship_Learning
 cd D:\study\LLM
 git status
 # 学习前
